@@ -1,0 +1,21 @@
+.container
+{
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+  max-width: 800px;
+}
+
+.flex
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+.input
+{
+  border: 0;
+  outline: 0;
+  font-size: 16px;
+  color: $dark;
+}

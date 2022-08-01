@@ -1,0 +1,171 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+  max-width: 800px;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.input {
+  border: 0;
+  outline: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.my-10 {
+  margin: 10px 0;
+}
+
+.mx-10 {
+  margin: 0 10px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.my-20 {
+  margin: 20px 0;
+}
+
+.mx-20 {
+  margin: 0 20px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.my-30 {
+  margin: 30px 0;
+}
+
+.mx-30 {
+  margin: 0 30px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.my-40 {
+  margin: 40px 0;
+}
+
+.mx-40 {
+  margin: 0 40px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.my-50 {
+  margin: 50px 0;
+}
+
+.mx-50 {
+  margin: 0 50px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  color: #333;
+  background-color: #fff;
+}
+
+.addTask {
+  max-width: 500px;
+  border-bottom: 2px solid #2ab7ca;
+  padding: 5px 0;
+}
+
+.addTask.flex {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.addTask button {
+  cursor: pointer;
+  padding: 10px 15px;
+  border: none;
+  font-size: 13px;
+  white-space: nowrap;
+  color: #fff;
+  background-color: #2ab7ca;
+  border-radius: 2px;
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.addTask button:hover {
+  opacity: 0.9;
+}
+
+.addTask button:active {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+.tasks.flex {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.task {
+  border: 1px solid gray;
+  border-left: 3px solid #2ab7ca;
+  padding: 10px 5px;
+  max-width: 500px;
+}
+
+.task i {
+  padding-right: 10px;
+}
+
+.task input[type='text'] {
+  font-size: 14px;
+}
+/*# sourceMappingURL=style.css.map */

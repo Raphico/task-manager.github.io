@@ -1,0 +1,76 @@
+$blue: #2ab7ca;
+$light: #fff;
+$dark: #333;
+
+@import './utilities';
+@import './config';
+
+*
+{
+  box-sizing: border-box;
+}
+
+body
+{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  color: $dark;
+  background-color: $light;
+}
+
+.addTask
+{
+  max-width: 500px;
+  border-bottom: 2px solid $blue;
+  padding: 5px 0;
+  &.flex
+  {
+    align-items: center;
+  }
+  
+  & button
+  {
+    cursor: pointer;
+    padding: 10px 15px;
+    border: none;
+    font-size: 13px;
+    white-space: nowrap;
+    color: $light;
+    background-color: $blue;
+    border-radius: 2px;
+    transition: all ease 0.3s;
+
+    &:hover
+    {
+      opacity: 0.9;
+    }
+
+    &:active
+    {
+      transform: scale(0.9);
+    }
+  }
+}
+
+.tasks.flex
+{
+  flex-direction: column;
+
+}
+
+.task
+{
+  border: 1px solid gray;
+  border-left: 3px solid $blue;
+  padding: 10px 5px;
+  max-width: 500px;
+
+  & i
+  {
+    padding-right: 10px;
+  }
+  & input[type='text']
+  {
+    font-size: 14px;
+  }
+}

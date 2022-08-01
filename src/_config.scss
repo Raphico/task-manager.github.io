@@ -1,0 +1,21 @@
+$spaceAmounts: (10, 20, 30, 40, 50);
+
+@each $space in $spaceAmounts
+{
+  .my-#{$space}
+  {
+    margin: #{$space}px 0;
+  }
+  .mx-#{$space}
+  {
+    margin: 0 #{$space}px;
+  }
+  .mt-#{$space}
+  {
+    margin-top: #{$space}px;
+  }
+  .mb-#{$space}
+  {
+    margin-bottom: #{$space}px;
+  }
+}
